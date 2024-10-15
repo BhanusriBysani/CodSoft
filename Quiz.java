@@ -25,9 +25,9 @@ public class Quiz {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int score = 0;
-        int questionTimeLimit = 10; // Time limit per question in seconds
+        int questionTimeLimit = 10; 
 
-        // Iterate through each question
+        
         for (int i = 0; i < questions.length; i++) {
             System.out.println("Question " + (i + 1) + ":");
             displayQuestion(questions[i]);
